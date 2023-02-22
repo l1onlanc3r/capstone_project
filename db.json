@@ -1,1 +1,743 @@
-{"users":[{"email":"my@mail.com","password":"$2a$10$tj.YKvQ/65iPYMsvGxHbq.2O4Eh7Ny/NRa9qwheRPGR9m1TPYYEK6","name":"Sherwin","id":1}],"questions":[{"id":1,"question":"Which of the following is used to access a function fetch() from h1 element in JSX?","choices":[{"id":1,"value":"<h1>${fetch()}</h1>"},{"id":2,"value":"<h1>{fetch}</h1>"},{"id":3,"value":"<h1>${fetch}</h1>"},{"id":4,"value":"<h1>{fetch()}</h1>"}],"correctAns":2,"type":"single","weight":20},{"id":2,"question":"When setState() is called inside render() method, which of the following events takes place?","choices":[{"id":1,"value":"duplicate key error"},{"id":2,"value":"repetitive output happiness on the"},{"id":3,"value":"screen nothing happens"},{"id":4,"value":"stackoverflow error"}],"correctAns":4,"type":"single","weight":20},{"id":3,"question":"What happens if you render an input element with disabled = {false}?","choices":[{"id":1,"value":"it will be rendered as enabled"},{"id":2,"value":"it will not be rendered as disabled"},{"id":3,"value":"it will not be rendered as enabled"},{"id":4,"value":"it will be rendered as disabled"}],"correctAns":[1,2],"type":"multiple","weight":20},{"id":4,"question":"Which of the following lifecycle events React components have at the highest level?","choices":[{"id":1,"value":"Destruction"},{"id":2,"value":"Initialization"},{"id":3,"value":"State/Property updates"},{"id":4,"value":"None of the above"}],"correctAns":[1,2,3],"type":"multiple","weight":30},{"id":5,"question":"How many ways of deﬁning your variables in ES6?","choices":[{"id":1,"value":"4"},{"id":2,"value":"1"},{"id":3,"value":"5"},{"id":4,"value":"3"}],"correctAns":4,"type":"single","weight":10}],"results":[{"id":"63f52b02e39d63eea1ddef64","user_id":1,"selectedAnswers":[{"questionId":"1","answer":2},{"questionId":"2","answer":2},{"questionId":"3","answer":[4,3]},{"questionId":"4","answer":[1]},{"questionId":"5","answer":3}],"correct":1,"score":20,"datetime":"2023-02-21T20:35:14.998Z"},{"id":"63f52d78022f727e3d5ae996","user_id":1,"selectedAnswers":[{"questionId":"1","answer":1},{"questionId":"2","answer":4},{"questionId":"3","answer":[1,2]},{"questionId":"4","answer":[1,2,3]},{"questionId":"5","answer":4}],"correct":4,"score":80,"datetime":"2023-02-21T20:45:44.270Z"},{"id":"63f530cf7a6a290d7ccbe3ba","user_id":1,"selectedAnswers":[{"questionId":"1","answer":2},{"questionId":"2","answer":3},{"questionId":"3","answer":[3,2]},{"questionId":"4","answer":[3]},{"questionId":"5","answer":3}],"correct":1,"score":20,"datetime":"2023-02-21T20:59:59.193Z"},{"id":"63f531c891fb48f12e56119c","user_id":1,"selectedAnswers":[{"questionId":"1","answer":2},{"questionId":"2","answer":3},{"questionId":"3","answer":[3,2]},{"questionId":"4","answer":[3]},{"questionId":"5","answer":3}],"correct":1,"score":20,"datetime":"2023-02-21T21:04:08.479Z"},{"id":"63f53e457b2d71a7219fe643","user_id":1,"selectedAnswers":[{"questionId":"1","answer":2},{"questionId":"2","answer":4},{"questionId":"3","answer":[3]},{"questionId":"4","answer":[3]},{"questionId":"5","answer":3}],"correct":2,"score":40,"datetime":"2023-02-21T21:57:25.179Z"},{"id":"63f53fa0ada12d2546965c8d","user_id":1,"selectedAnswers":[{"questionId":"1","answer":3},{"questionId":"2","answer":3},{"questionId":"3","answer":[2]},{"questionId":"4","answer":[4]},{"questionId":"5","answer":2}],"correct":0,"score":0,"datetime":"2023-02-21T22:03:12.839Z"},{"id":"63f543c445d3768e12dbcee0","user_id":1,"selectedAnswers":[{"questionId":"1","answer":2},{"questionId":"2","answer":4},{"questionId":"3","answer":[1,2]},{"questionId":"4","answer":[4]},{"questionId":"5","answer":3}],"correct":3,"score":60,"datetime":"2023-02-21T22:20:52.682Z"},{"id":"63f5452180115cd65de0fa0c","user_id":1,"selectedAnswers":[{"questionId":"1","answer":3},{"questionId":"2","answer":2},{"questionId":"3","answer":[4,2]},{"questionId":"4","answer":[3,2,4]},{"questionId":"5","answer":3}],"correct":0,"score":0,"datetime":"2023-02-21T22:26:41.223Z"},{"id":"63f57c53327ea8555b9bdcdd","user_id":1,"selectedAnswers":[{"questionId":"1","answer":2},{"questionId":"2","answer":3},{"questionId":"3","answer":[3,1]},{"questionId":"4","answer":[2,1]},{"questionId":"5","answer":3}],"correct":1,"score":20,"datetime":"2023-02-22T02:22:11.152Z"},{"id":"63f57d46654e163c824b047c","user_id":1,"selectedAnswers":[{"questionId":"1","answer":3},{"questionId":"2","answer":2},{"questionId":"3","answer":[2]},{"questionId":"4","answer":[2]},{"questionId":"5","answer":2}],"correct":0,"score":0,"datetime":"2023-02-22T02:26:14.925Z"},{"id":"63f57e2c0836ad2ce31f43bd","user_id":1,"selectedAnswers":[{"questionId":"1","answer":2},{"questionId":"2","answer":3},{"questionId":"3","answer":[3,2]},{"questionId":"4","answer":[4,2]},{"questionId":"5","answer":2}],"correct":1,"score":20,"datetime":"2023-02-22T02:30:04.018Z"},{"id":"63f57fca46155ee5f098a9f8","user_id":1,"selectedAnswers":[{"questionId":"1","answer":2},{"questionId":"2","answer":2},{"questionId":"3","answer":[1]},{"questionId":"4","answer":[2,3]},{"questionId":"5","answer":1}],"correct":1,"score":20,"datetime":"2023-02-22T02:36:58.933Z"},{"id":"63f58055575d1a6185b7b426","user_id":1,"selectedAnswers":[{"questionId":"1","answer":1},{"questionId":"2","answer":3},{"questionId":"3","answer":[2,3]},{"questionId":"4","answer":[4,1]},{"questionId":"5","answer":1}],"correct":0,"score":0,"datetime":"2023-02-22T02:39:17.947Z"},{"id":"63f582f395dddd83e99a90cf","user_id":1,"selectedAnswers":[{"questionId":"1","answer":1},{"questionId":"2","answer":2},{"questionId":"3","answer":[3]},{"questionId":"4","answer":[2]},{"questionId":"5","answer":2}],"correct":0,"score":0,"datetime":"2023-02-22T02:50:27.936Z"},{"id":"63f58320d6f6e8ec675102c9","user_id":1,"selectedAnswers":[{"questionId":"1","answer":1},{"questionId":"2","answer":2},{"questionId":"3","answer":[3]},{"questionId":"4","answer":[2]},{"questionId":"5","answer":2}],"correct":0,"score":0,"datetime":"2023-02-22T02:51:12.681Z"},{"id":"63f5878626631d5ba918c829","user_id":1,"selectedAnswers":[{"questionId":"1","answer":1},{"questionId":"2","answer":2},{"questionId":"3","answer":[3,2]},{"questionId":"4","answer":[3]},{"questionId":"5","answer":3}],"correct":0,"score":0,"datetime":"2023-02-22T03:09:58.322Z"},{"id":"63f58a88e91a93df4b4f7f96","user_id":1,"selectedAnswers":[{"questionId":"1","answer":3},{"questionId":"2","answer":""},{"questionId":"3","answer":[]},{"questionId":"4","answer":[]},{"questionId":"5","answer":3}],"correct":0,"score":0,"datetime":"2023-02-22T03:22:48.526Z"},{"id":"63f59028c41adf40ba496eae","user_id":1,"selectedAnswers":[{"questionId":"1","answer":3},{"questionId":"2","answer":3},{"questionId":"3","answer":[3,2]},{"questionId":"4","answer":[3,2]},{"questionId":"5","answer":3}],"correct":0,"score":0,"datetime":"2023-02-22T03:46:48.473Z"},{"id":"63f597ae3ef865faef1550d9","user_id":1,"selectedAnswers":[{"questionId":"1","answer":1},{"questionId":"2","answer":3},{"questionId":"3","answer":[2,3]},{"questionId":"4","answer":[2]},{"questionId":"5","answer":2}],"correct":0,"score":0,"datetime":"2023-02-22T04:18:54.202Z"},{"id":"63f5986720590b1d6e020b05","user_id":1,"selectedAnswers":[{"questionId":"1","answer":3},{"questionId":"2","answer":3},{"questionId":"3","answer":[2,3]},{"questionId":"4","answer":[3]},{"questionId":"5","answer":3}],"correct":0,"score":0,"datetime":"2023-02-22T04:21:59.028Z"},{"id":"63f598d77918bba73224292e","user_id":1,"selectedAnswers":[{"questionId":"1","answer":2},{"questionId":"2","answer":4},{"questionId":"3","answer":[4]},{"questionId":"4","answer":[4]},{"questionId":"5","answer":4}],"correct":3,"score":50,"datetime":"2023-02-22T04:23:51.830Z"},{"id":"63f59ce7446e41e04e819bd8","user_id":1,"selectedAnswers":[{"questionId":"1","answer":2},{"questionId":"2","answer":3},{"questionId":"3","answer":[2]},{"questionId":"4","answer":[3]},{"questionId":"5","answer":2}],"correct":1,"score":20,"datetime":"2023-02-22T04:41:11.067Z"},{"id":"63f59d5be2689e56e9e84db7","user_id":1,"selectedAnswers":[{"questionId":"1","answer":1},{"questionId":"2","answer":3},{"questionId":"3","answer":[2]},{"questionId":"4","answer":[3]},{"questionId":"5","answer":3}],"correct":0,"score":0,"datetime":"2023-02-22T04:43:07.086Z"},{"id":"63f59eb22e1702d0aada067f","user_id":1,"selectedAnswers":[{"questionId":"1","answer":1},{"questionId":"2","answer":2},{"questionId":"3","answer":[3]},{"questionId":"4","answer":[3]},{"questionId":"5","answer":2}],"correct":0,"score":0,"datetime":"2023-02-22T04:48:50.025Z"},{"id":"63f5a300e0b42aadeaaedee9","user_id":1,"selectedAnswers":[{"questionId":"1","answer":2},{"questionId":"2","answer":2},{"questionId":"3","answer":[1,2]},{"questionId":"4","answer":[1,2,3]},{"questionId":"5","answer":4}],"correct":4,"score":80,"datetime":"2023-02-22T05:07:12.148Z"},{"id":"63f5b43f95becfdd662fd61f","user_id":1,"selectedAnswers":[{"questionId":"1","answer":2},{"questionId":"2","answer":2},{"questionId":"3","answer":[4,3]},{"questionId":"4","answer":[4,2]},{"questionId":"5","answer":3}],"correct":1,"score":20,"datetime":"2023-02-22T06:20:47.268Z"},{"id":"63f5b54ccc0e0c7d60313627","user_id":1,"selectedAnswers":[{"questionId":"1","answer":3},{"questionId":"2","answer":2},{"questionId":"3","answer":[4,3]},{"questionId":"4","answer":[2]},{"questionId":"5","answer":2}],"correct":0,"score":0,"datetime":"2023-02-22T06:25:16.718Z"},{"id":"63f5b7d0c8f84808ee115bb9","user_id":1,"selectedAnswers":[{"questionId":"1","answer":1},{"questionId":"2","answer":2},{"questionId":"3","answer":[3]},{"questionId":"4","answer":[4]},{"questionId":"5","answer":2}],"correct":0,"score":0,"datetime":"2023-02-22T06:36:00.624Z"},{"id":"63f5b7edaa12a43de41ac96e","user_id":1,"selectedAnswers":[{"questionId":"1","answer":1},{"questionId":"2","answer":3},{"questionId":"3","answer":[2]},{"questionId":"4","answer":[4]},{"questionId":"5","answer":2}],"correct":0,"score":0,"datetime":"2023-02-22T06:36:29.546Z"},{"id":"63f5b8ba621c308dda17ac4f","user_id":1,"selectedAnswers":[{"questionId":"1","answer":2},{"questionId":"2","answer":3},{"questionId":"3","answer":[4]},{"questionId":"4","answer":[3]},{"questionId":"5","answer":3}],"correct":1,"score":20,"datetime":"2023-02-22T06:39:54.248Z"},{"id":"63f5b9e2d692919a5f60b900","user_id":1,"selectedAnswers":[{"questionId":"1","answer":1},{"questionId":"2","answer":2},{"questionId":"3","answer":[3]},{"questionId":"4","answer":[4]},{"questionId":"5","answer":3}],"correct":0,"score":0,"datetime":"2023-02-22T06:44:50.392Z"},{"id":"63f5baf6d5632fd6852328e4","user_id":1,"selectedAnswers":[{"questionId":"1","answer":3},{"questionId":"2","answer":3},{"questionId":"3","answer":[2]},{"questionId":"4","answer":[2]},{"questionId":"5","answer":3}],"correct":0,"score":0,"datetime":"2023-02-22T06:49:26.835Z"},{"id":"63f5cc5fd93944311a45bae7","user_id":1,"selectedAnswers":[{"questionId":"1","answer":2},{"questionId":"2","answer":4},{"questionId":"3","answer":[2,3,1]},{"questionId":"4","answer":[1,2,3]},{"questionId":"5","answer":4}],"correct":4,"score":80,"datetime":"2023-02-22T08:03:43.052Z"},{"id":"63f5dd22c013bea5c977defb","user_id":1,"selectedAnswers":[{"questionId":"1","answer":3},{"questionId":"2","answer":3},{"questionId":"3","answer":[4,3]},{"questionId":"4","answer":[4,3,2]},{"questionId":"5","answer":4}],"correct":1,"score":10,"datetime":"2023-02-22T09:15:14.917Z"},{"id":"63f5dd59d4b52847f61f783c","user_id":1,"selectedAnswers":[{"questionId":"1","answer":2},{"questionId":"2","answer":3},{"questionId":"3","answer":[2,3,1]},{"questionId":"4","answer":[3,2,1,4]},{"questionId":"5","answer":4}],"correct":2,"score":30,"datetime":"2023-02-22T09:16:09.762Z"}],"errors":[{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"LOAD_RESULTS_FAIL","payload":{"message":"jwt expired","title":"Load results fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-21T21:29:45.736Z","id":1},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"LOAD_RESULTS_FAIL","payload":{"message":"jwt expired","title":"Load results fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-21T21:32:43.542Z","id":2},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"LOAD_RESULTS_FAIL","payload":{"message":"jwt expired","title":"Load results fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-21T21:44:57.247Z","id":3},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"LOAD_QUESTIONS_FAIL","payload":{"message":"jwt expired","title":"Load questions fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-21T21:45:02.926Z","id":4},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"LOAD_RESULTS_FAIL","payload":{"message":"jwt expired","title":"Load results fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-21T21:45:04.518Z","id":5},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"LOAD_RESULTS_FAIL","payload":{"message":"jwt expired","title":"Load results fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-21T23:25:17.662Z","id":6},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"LOAD_RESULTS_FAIL","payload":{"message":"jwt expired","title":"Load results fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-22T00:12:56.157Z","id":7},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"LOAD_RESULTS_FAIL","payload":{"message":"jwt expired","title":"Load results fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-22T00:13:47.539Z","id":8},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"LOAD_RESULTS_FAIL","payload":{"message":"jwt expired","title":"Load results fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-22T00:14:08.526Z","id":9},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"LOAD_RESULTS_FAIL","payload":{"message":"jwt expired","title":"Load results fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-22T00:14:20.857Z","id":10},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"LOAD_RESULTS_FAIL","payload":{"message":"jwt expired","title":"Load results fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-22T00:15:40.677Z","id":11},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"LOAD_RESULTS_FAIL","payload":{"message":"jwt expired","title":"Load results fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-22T00:18:52.215Z","id":12},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"LOAD_RESULTS_FAIL","payload":{"message":"jwt expired","title":"Load results fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-22T00:19:02.257Z","id":13},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"LOAD_RESULTS_FAIL","payload":{"message":"jwt expired","title":"Load results fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-22T00:19:15.764Z","id":14},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"LOAD_RESULTS_FAIL","payload":{"message":"jwt expired","title":"Load results fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-22T00:30:13.601Z","id":15},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"LOAD_RESULTS_FAIL","payload":{"message":"jwt expired","title":"Load results fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-22T02:29:34.500Z","id":16},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"LOAD_QUESTIONS_FAIL","payload":{"message":"jwt expired","title":"Load questions fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-22T02:29:37.862Z","id":17},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"LOAD_RESULTS_FAIL","payload":{"message":"jwt expired","title":"Load results fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-22T02:29:41.437Z","id":18},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"LOAD_RESULTS_FAIL","payload":{"message":"jwt expired","title":"Load results fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-22T03:09:07.323Z","id":19},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"LOAD_RESULTS_FAIL","payload":{"message":"jwt expired","title":"Load results fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-22T03:09:16.131Z","id":20},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"CHECK_ANSWERS_FAIL","payload":{"message":"Request Timeout. Try after sometime.","title":"Check answers fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-22T03:18:56.464Z","id":21},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"CHECK_ANSWERS_FAIL","payload":{"message":"Request Timeout. Try after sometime.","title":"Check answers fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-22T03:21:23.615Z","id":22},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"LOAD_RESULTS_FAIL","payload":{"message":"jwt expired","title":"Load results fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-22T04:48:14.143Z","id":23},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"LOAD_QUESTIONS_FAIL","payload":{"message":"jwt expired","title":"Load questions fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-22T05:48:23.624Z","id":24},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"LOAD_RESULTS_FAIL","payload":{"message":"jwt expired","title":"Load results fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-22T05:48:30.828Z","id":25},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"LOAD_RESULTS_FAIL","payload":{"message":"jwt expired","title":"Load results fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-22T06:48:53.520Z","id":26},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"LOAD_QUESTIONS_FAIL","payload":{"message":"jwt expired","title":"Load questions fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-22T07:57:26.009Z","id":27},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"LOAD_RESULTS_FAIL","payload":{"message":"jwt expired","title":"Load results fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-22T07:57:30.167Z","id":28},{"user":{"email":"my@mail.com","name":"Sherwin","id":1},"type":"LOAD_RESULTS_FAIL","payload":{"message":"jwt expired","title":"Load results fail"},"meta":{"loadingId":-1},"createdAt":"2023-02-22T09:15:16.932Z","id":29}]}
+{
+  "users": [
+    {
+      "email": "my@mail.com",
+      "password": "$2a$10$tj.YKvQ/65iPYMsvGxHbq.2O4Eh7Ny/NRa9qwheRPGR9m1TPYYEK6",
+      "name": "Sherwin",
+      "id": 1
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is used to access a function fetch() from h1 element in JSX?",
+      "choices": [
+        { "id": 1, "value": "<h1>${fetch()}</h1>" },
+        { "id": 2, "value": "<h1>{fetch}</h1>" },
+        { "id": 3, "value": "<h1>${fetch}</h1>" },
+        { "id": 4, "value": "<h1>{fetch()}</h1>" }
+      ],
+      "correctAns": 2,
+      "type": "single",
+      "weight": 20
+    },
+    {
+      "id": 2,
+      "question": "When setState() is called inside render() method, which of the following events takes place?",
+      "choices": [
+        { "id": 1, "value": "duplicate key error" },
+        { "id": 2, "value": "repetitive output happiness on the" },
+        { "id": 3, "value": "screen nothing happens" },
+        { "id": 4, "value": "stackoverflow error" }
+      ],
+      "correctAns": 4,
+      "type": "single",
+      "weight": 20
+    },
+    {
+      "id": 3,
+      "question": "What happens if you render an input element with disabled = {false}?",
+      "choices": [
+        { "id": 1, "value": "it will be rendered as enabled" },
+        { "id": 2, "value": "it will not be rendered as disabled" },
+        { "id": 3, "value": "it will not be rendered as enabled" },
+        { "id": 4, "value": "it will be rendered as disabled" }
+      ],
+      "correctAns": [1, 2],
+      "type": "multiple",
+      "weight": 20
+    },
+    {
+      "id": 4,
+      "question": "Which of the following lifecycle events React components have at the highest level?",
+      "choices": [
+        { "id": 1, "value": "Destruction" },
+        { "id": 2, "value": "Initialization" },
+        { "id": 3, "value": "State/Property updates" },
+        { "id": 4, "value": "None of the above" }
+      ],
+      "correctAns": [1, 2, 3],
+      "type": "multiple",
+      "weight": 30
+    },
+    {
+      "id": 5,
+      "question": "How many ways of deﬁning your variables in ES6?",
+      "choices": [
+        { "id": 1, "value": "4" },
+        { "id": 2, "value": "1" },
+        { "id": 3, "value": "5" },
+        { "id": 4, "value": "3" }
+      ],
+      "correctAns": 4,
+      "type": "single",
+      "weight": 10
+    }
+  ],
+  "results": [
+    {
+      "id": "63f52b02e39d63eea1ddef64",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 2 },
+        { "questionId": "2", "answer": 2 },
+        { "questionId": "3", "answer": [4, 3] },
+        { "questionId": "4", "answer": [1] },
+        { "questionId": "5", "answer": 3 }
+      ],
+      "correct": 1,
+      "score": 20,
+      "datetime": "2023-02-21T20:35:14.998Z"
+    },
+    {
+      "id": "63f52d78022f727e3d5ae996",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 1 },
+        { "questionId": "2", "answer": 4 },
+        { "questionId": "3", "answer": [1, 2] },
+        { "questionId": "4", "answer": [1, 2, 3] },
+        { "questionId": "5", "answer": 4 }
+      ],
+      "correct": 4,
+      "score": 80,
+      "datetime": "2023-02-21T20:45:44.270Z"
+    },
+    {
+      "id": "63f530cf7a6a290d7ccbe3ba",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 2 },
+        { "questionId": "2", "answer": 3 },
+        { "questionId": "3", "answer": [3, 2] },
+        { "questionId": "4", "answer": [3] },
+        { "questionId": "5", "answer": 3 }
+      ],
+      "correct": 1,
+      "score": 20,
+      "datetime": "2023-02-21T20:59:59.193Z"
+    },
+    {
+      "id": "63f531c891fb48f12e56119c",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 2 },
+        { "questionId": "2", "answer": 3 },
+        { "questionId": "3", "answer": [3, 2] },
+        { "questionId": "4", "answer": [3] },
+        { "questionId": "5", "answer": 3 }
+      ],
+      "correct": 1,
+      "score": 20,
+      "datetime": "2023-02-21T21:04:08.479Z"
+    },
+    {
+      "id": "63f53e457b2d71a7219fe643",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 2 },
+        { "questionId": "2", "answer": 4 },
+        { "questionId": "3", "answer": [3] },
+        { "questionId": "4", "answer": [3] },
+        { "questionId": "5", "answer": 3 }
+      ],
+      "correct": 2,
+      "score": 40,
+      "datetime": "2023-02-21T21:57:25.179Z"
+    },
+    {
+      "id": "63f53fa0ada12d2546965c8d",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 3 },
+        { "questionId": "2", "answer": 3 },
+        { "questionId": "3", "answer": [2] },
+        { "questionId": "4", "answer": [4] },
+        { "questionId": "5", "answer": 2 }
+      ],
+      "correct": 0,
+      "score": 0,
+      "datetime": "2023-02-21T22:03:12.839Z"
+    },
+    {
+      "id": "63f543c445d3768e12dbcee0",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 2 },
+        { "questionId": "2", "answer": 4 },
+        { "questionId": "3", "answer": [1, 2] },
+        { "questionId": "4", "answer": [4] },
+        { "questionId": "5", "answer": 3 }
+      ],
+      "correct": 3,
+      "score": 60,
+      "datetime": "2023-02-21T22:20:52.682Z"
+    },
+    {
+      "id": "63f5452180115cd65de0fa0c",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 3 },
+        { "questionId": "2", "answer": 2 },
+        { "questionId": "3", "answer": [4, 2] },
+        { "questionId": "4", "answer": [3, 2, 4] },
+        { "questionId": "5", "answer": 3 }
+      ],
+      "correct": 0,
+      "score": 0,
+      "datetime": "2023-02-21T22:26:41.223Z"
+    },
+    {
+      "id": "63f57c53327ea8555b9bdcdd",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 2 },
+        { "questionId": "2", "answer": 3 },
+        { "questionId": "3", "answer": [3, 1] },
+        { "questionId": "4", "answer": [2, 1] },
+        { "questionId": "5", "answer": 3 }
+      ],
+      "correct": 1,
+      "score": 20,
+      "datetime": "2023-02-22T02:22:11.152Z"
+    },
+    {
+      "id": "63f57d46654e163c824b047c",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 3 },
+        { "questionId": "2", "answer": 2 },
+        { "questionId": "3", "answer": [2] },
+        { "questionId": "4", "answer": [2] },
+        { "questionId": "5", "answer": 2 }
+      ],
+      "correct": 0,
+      "score": 0,
+      "datetime": "2023-02-22T02:26:14.925Z"
+    },
+    {
+      "id": "63f57e2c0836ad2ce31f43bd",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 2 },
+        { "questionId": "2", "answer": 3 },
+        { "questionId": "3", "answer": [3, 2] },
+        { "questionId": "4", "answer": [4, 2] },
+        { "questionId": "5", "answer": 2 }
+      ],
+      "correct": 1,
+      "score": 20,
+      "datetime": "2023-02-22T02:30:04.018Z"
+    },
+    {
+      "id": "63f57fca46155ee5f098a9f8",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 2 },
+        { "questionId": "2", "answer": 2 },
+        { "questionId": "3", "answer": [1] },
+        { "questionId": "4", "answer": [2, 3] },
+        { "questionId": "5", "answer": 1 }
+      ],
+      "correct": 1,
+      "score": 20,
+      "datetime": "2023-02-22T02:36:58.933Z"
+    },
+    {
+      "id": "63f58055575d1a6185b7b426",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 1 },
+        { "questionId": "2", "answer": 3 },
+        { "questionId": "3", "answer": [2, 3] },
+        { "questionId": "4", "answer": [4, 1] },
+        { "questionId": "5", "answer": 1 }
+      ],
+      "correct": 0,
+      "score": 0,
+      "datetime": "2023-02-22T02:39:17.947Z"
+    },
+    {
+      "id": "63f582f395dddd83e99a90cf",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 1 },
+        { "questionId": "2", "answer": 2 },
+        { "questionId": "3", "answer": [3] },
+        { "questionId": "4", "answer": [2] },
+        { "questionId": "5", "answer": 2 }
+      ],
+      "correct": 0,
+      "score": 0,
+      "datetime": "2023-02-22T02:50:27.936Z"
+    },
+    {
+      "id": "63f58320d6f6e8ec675102c9",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 1 },
+        { "questionId": "2", "answer": 2 },
+        { "questionId": "3", "answer": [3] },
+        { "questionId": "4", "answer": [2] },
+        { "questionId": "5", "answer": 2 }
+      ],
+      "correct": 0,
+      "score": 0,
+      "datetime": "2023-02-22T02:51:12.681Z"
+    },
+    {
+      "id": "63f5878626631d5ba918c829",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 1 },
+        { "questionId": "2", "answer": 2 },
+        { "questionId": "3", "answer": [3, 2] },
+        { "questionId": "4", "answer": [3] },
+        { "questionId": "5", "answer": 3 }
+      ],
+      "correct": 0,
+      "score": 0,
+      "datetime": "2023-02-22T03:09:58.322Z"
+    },
+    {
+      "id": "63f58a88e91a93df4b4f7f96",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 3 },
+        { "questionId": "2", "answer": "" },
+        { "questionId": "3", "answer": [] },
+        { "questionId": "4", "answer": [] },
+        { "questionId": "5", "answer": 3 }
+      ],
+      "correct": 0,
+      "score": 0,
+      "datetime": "2023-02-22T03:22:48.526Z"
+    },
+    {
+      "id": "63f59028c41adf40ba496eae",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 3 },
+        { "questionId": "2", "answer": 3 },
+        { "questionId": "3", "answer": [3, 2] },
+        { "questionId": "4", "answer": [3, 2] },
+        { "questionId": "5", "answer": 3 }
+      ],
+      "correct": 0,
+      "score": 0,
+      "datetime": "2023-02-22T03:46:48.473Z"
+    },
+    {
+      "id": "63f597ae3ef865faef1550d9",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 1 },
+        { "questionId": "2", "answer": 3 },
+        { "questionId": "3", "answer": [2, 3] },
+        { "questionId": "4", "answer": [2] },
+        { "questionId": "5", "answer": 2 }
+      ],
+      "correct": 0,
+      "score": 0,
+      "datetime": "2023-02-22T04:18:54.202Z"
+    },
+    {
+      "id": "63f5986720590b1d6e020b05",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 3 },
+        { "questionId": "2", "answer": 3 },
+        { "questionId": "3", "answer": [2, 3] },
+        { "questionId": "4", "answer": [3] },
+        { "questionId": "5", "answer": 3 }
+      ],
+      "correct": 0,
+      "score": 0,
+      "datetime": "2023-02-22T04:21:59.028Z"
+    },
+    {
+      "id": "63f598d77918bba73224292e",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 2 },
+        { "questionId": "2", "answer": 4 },
+        { "questionId": "3", "answer": [4] },
+        { "questionId": "4", "answer": [4] },
+        { "questionId": "5", "answer": 4 }
+      ],
+      "correct": 3,
+      "score": 50,
+      "datetime": "2023-02-22T04:23:51.830Z"
+    },
+    {
+      "id": "63f59ce7446e41e04e819bd8",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 2 },
+        { "questionId": "2", "answer": 3 },
+        { "questionId": "3", "answer": [2] },
+        { "questionId": "4", "answer": [3] },
+        { "questionId": "5", "answer": 2 }
+      ],
+      "correct": 1,
+      "score": 20,
+      "datetime": "2023-02-22T04:41:11.067Z"
+    },
+    {
+      "id": "63f59d5be2689e56e9e84db7",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 1 },
+        { "questionId": "2", "answer": 3 },
+        { "questionId": "3", "answer": [2] },
+        { "questionId": "4", "answer": [3] },
+        { "questionId": "5", "answer": 3 }
+      ],
+      "correct": 0,
+      "score": 0,
+      "datetime": "2023-02-22T04:43:07.086Z"
+    },
+    {
+      "id": "63f59eb22e1702d0aada067f",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 1 },
+        { "questionId": "2", "answer": 2 },
+        { "questionId": "3", "answer": [3] },
+        { "questionId": "4", "answer": [3] },
+        { "questionId": "5", "answer": 2 }
+      ],
+      "correct": 0,
+      "score": 0,
+      "datetime": "2023-02-22T04:48:50.025Z"
+    },
+    {
+      "id": "63f5a300e0b42aadeaaedee9",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 2 },
+        { "questionId": "2", "answer": 2 },
+        { "questionId": "3", "answer": [1, 2] },
+        { "questionId": "4", "answer": [1, 2, 3] },
+        { "questionId": "5", "answer": 4 }
+      ],
+      "correct": 4,
+      "score": 80,
+      "datetime": "2023-02-22T05:07:12.148Z"
+    },
+    {
+      "id": "63f5b43f95becfdd662fd61f",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 2 },
+        { "questionId": "2", "answer": 2 },
+        { "questionId": "3", "answer": [4, 3] },
+        { "questionId": "4", "answer": [4, 2] },
+        { "questionId": "5", "answer": 3 }
+      ],
+      "correct": 1,
+      "score": 20,
+      "datetime": "2023-02-22T06:20:47.268Z"
+    },
+    {
+      "id": "63f5b54ccc0e0c7d60313627",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 3 },
+        { "questionId": "2", "answer": 2 },
+        { "questionId": "3", "answer": [4, 3] },
+        { "questionId": "4", "answer": [2] },
+        { "questionId": "5", "answer": 2 }
+      ],
+      "correct": 0,
+      "score": 0,
+      "datetime": "2023-02-22T06:25:16.718Z"
+    },
+    {
+      "id": "63f5b7d0c8f84808ee115bb9",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 1 },
+        { "questionId": "2", "answer": 2 },
+        { "questionId": "3", "answer": [3] },
+        { "questionId": "4", "answer": [4] },
+        { "questionId": "5", "answer": 2 }
+      ],
+      "correct": 0,
+      "score": 0,
+      "datetime": "2023-02-22T06:36:00.624Z"
+    },
+    {
+      "id": "63f5b7edaa12a43de41ac96e",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 1 },
+        { "questionId": "2", "answer": 3 },
+        { "questionId": "3", "answer": [2] },
+        { "questionId": "4", "answer": [4] },
+        { "questionId": "5", "answer": 2 }
+      ],
+      "correct": 0,
+      "score": 0,
+      "datetime": "2023-02-22T06:36:29.546Z"
+    },
+    {
+      "id": "63f5b8ba621c308dda17ac4f",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 2 },
+        { "questionId": "2", "answer": 3 },
+        { "questionId": "3", "answer": [4] },
+        { "questionId": "4", "answer": [3] },
+        { "questionId": "5", "answer": 3 }
+      ],
+      "correct": 1,
+      "score": 20,
+      "datetime": "2023-02-22T06:39:54.248Z"
+    },
+    {
+      "id": "63f5b9e2d692919a5f60b900",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 1 },
+        { "questionId": "2", "answer": 2 },
+        { "questionId": "3", "answer": [3] },
+        { "questionId": "4", "answer": [4] },
+        { "questionId": "5", "answer": 3 }
+      ],
+      "correct": 0,
+      "score": 0,
+      "datetime": "2023-02-22T06:44:50.392Z"
+    },
+    {
+      "id": "63f5baf6d5632fd6852328e4",
+      "user_id": 1,
+      "selectedAnswers": [
+        { "questionId": "1", "answer": 3 },
+        { "questionId": "2", "answer": 3 },
+        { "questionId": "3", "answer": [2] },
+        { "questionId": "4", "answer": [2] },
+        { "questionId": "5", "answer": 3 }
+      ],
+      "correct": 0,
+      "score": 0,
+      "datetime": "2023-02-22T06:49:26.835Z"
+    }
+  ],
+  "errors": [
+    {
+      "user": { "email": "my@mail.com", "name": "Sherwin", "id": 1 },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": { "message": "jwt expired", "title": "Load results fail" },
+      "meta": { "loadingId": -1 },
+      "createdAt": "2023-02-21T21:29:45.736Z",
+      "id": 1
+    },
+    {
+      "user": { "email": "my@mail.com", "name": "Sherwin", "id": 1 },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": { "message": "jwt expired", "title": "Load results fail" },
+      "meta": { "loadingId": -1 },
+      "createdAt": "2023-02-21T21:32:43.542Z",
+      "id": 2
+    },
+    {
+      "user": { "email": "my@mail.com", "name": "Sherwin", "id": 1 },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": { "message": "jwt expired", "title": "Load results fail" },
+      "meta": { "loadingId": -1 },
+      "createdAt": "2023-02-21T21:44:57.247Z",
+      "id": 3
+    },
+    {
+      "user": { "email": "my@mail.com", "name": "Sherwin", "id": 1 },
+      "type": "LOAD_QUESTIONS_FAIL",
+      "payload": { "message": "jwt expired", "title": "Load questions fail" },
+      "meta": { "loadingId": -1 },
+      "createdAt": "2023-02-21T21:45:02.926Z",
+      "id": 4
+    },
+    {
+      "user": { "email": "my@mail.com", "name": "Sherwin", "id": 1 },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": { "message": "jwt expired", "title": "Load results fail" },
+      "meta": { "loadingId": -1 },
+      "createdAt": "2023-02-21T21:45:04.518Z",
+      "id": 5
+    },
+    {
+      "user": { "email": "my@mail.com", "name": "Sherwin", "id": 1 },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": { "message": "jwt expired", "title": "Load results fail" },
+      "meta": { "loadingId": -1 },
+      "createdAt": "2023-02-21T23:25:17.662Z",
+      "id": 6
+    },
+    {
+      "user": { "email": "my@mail.com", "name": "Sherwin", "id": 1 },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": { "message": "jwt expired", "title": "Load results fail" },
+      "meta": { "loadingId": -1 },
+      "createdAt": "2023-02-22T00:12:56.157Z",
+      "id": 7
+    },
+    {
+      "user": { "email": "my@mail.com", "name": "Sherwin", "id": 1 },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": { "message": "jwt expired", "title": "Load results fail" },
+      "meta": { "loadingId": -1 },
+      "createdAt": "2023-02-22T00:13:47.539Z",
+      "id": 8
+    },
+    {
+      "user": { "email": "my@mail.com", "name": "Sherwin", "id": 1 },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": { "message": "jwt expired", "title": "Load results fail" },
+      "meta": { "loadingId": -1 },
+      "createdAt": "2023-02-22T00:14:08.526Z",
+      "id": 9
+    },
+    {
+      "user": { "email": "my@mail.com", "name": "Sherwin", "id": 1 },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": { "message": "jwt expired", "title": "Load results fail" },
+      "meta": { "loadingId": -1 },
+      "createdAt": "2023-02-22T00:14:20.857Z",
+      "id": 10
+    },
+    {
+      "user": { "email": "my@mail.com", "name": "Sherwin", "id": 1 },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": { "message": "jwt expired", "title": "Load results fail" },
+      "meta": { "loadingId": -1 },
+      "createdAt": "2023-02-22T00:15:40.677Z",
+      "id": 11
+    },
+    {
+      "user": { "email": "my@mail.com", "name": "Sherwin", "id": 1 },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": { "message": "jwt expired", "title": "Load results fail" },
+      "meta": { "loadingId": -1 },
+      "createdAt": "2023-02-22T00:18:52.215Z",
+      "id": 12
+    },
+    {
+      "user": { "email": "my@mail.com", "name": "Sherwin", "id": 1 },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": { "message": "jwt expired", "title": "Load results fail" },
+      "meta": { "loadingId": -1 },
+      "createdAt": "2023-02-22T00:19:02.257Z",
+      "id": 13
+    },
+    {
+      "user": { "email": "my@mail.com", "name": "Sherwin", "id": 1 },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": { "message": "jwt expired", "title": "Load results fail" },
+      "meta": { "loadingId": -1 },
+      "createdAt": "2023-02-22T00:19:15.764Z",
+      "id": 14
+    },
+    {
+      "user": { "email": "my@mail.com", "name": "Sherwin", "id": 1 },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": { "message": "jwt expired", "title": "Load results fail" },
+      "meta": { "loadingId": -1 },
+      "createdAt": "2023-02-22T00:30:13.601Z",
+      "id": 15
+    },
+    {
+      "user": { "email": "my@mail.com", "name": "Sherwin", "id": 1 },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": { "message": "jwt expired", "title": "Load results fail" },
+      "meta": { "loadingId": -1 },
+      "createdAt": "2023-02-22T02:29:34.500Z",
+      "id": 16
+    },
+    {
+      "user": { "email": "my@mail.com", "name": "Sherwin", "id": 1 },
+      "type": "LOAD_QUESTIONS_FAIL",
+      "payload": { "message": "jwt expired", "title": "Load questions fail" },
+      "meta": { "loadingId": -1 },
+      "createdAt": "2023-02-22T02:29:37.862Z",
+      "id": 17
+    },
+    {
+      "user": { "email": "my@mail.com", "name": "Sherwin", "id": 1 },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": { "message": "jwt expired", "title": "Load results fail" },
+      "meta": { "loadingId": -1 },
+      "createdAt": "2023-02-22T02:29:41.437Z",
+      "id": 18
+    },
+    {
+      "user": { "email": "my@mail.com", "name": "Sherwin", "id": 1 },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": { "message": "jwt expired", "title": "Load results fail" },
+      "meta": { "loadingId": -1 },
+      "createdAt": "2023-02-22T03:09:07.323Z",
+      "id": 19
+    },
+    {
+      "user": { "email": "my@mail.com", "name": "Sherwin", "id": 1 },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": { "message": "jwt expired", "title": "Load results fail" },
+      "meta": { "loadingId": -1 },
+      "createdAt": "2023-02-22T03:09:16.131Z",
+      "id": 20
+    },
+    {
+      "user": { "email": "my@mail.com", "name": "Sherwin", "id": 1 },
+      "type": "CHECK_ANSWERS_FAIL",
+      "payload": {
+        "message": "Request Timeout. Try after sometime.",
+        "title": "Check answers fail"
+      },
+      "meta": { "loadingId": -1 },
+      "createdAt": "2023-02-22T03:18:56.464Z",
+      "id": 21
+    },
+    {
+      "user": { "email": "my@mail.com", "name": "Sherwin", "id": 1 },
+      "type": "CHECK_ANSWERS_FAIL",
+      "payload": {
+        "message": "Request Timeout. Try after sometime.",
+        "title": "Check answers fail"
+      },
+      "meta": { "loadingId": -1 },
+      "createdAt": "2023-02-22T03:21:23.615Z",
+      "id": 22
+    },
+    {
+      "user": { "email": "my@mail.com", "name": "Sherwin", "id": 1 },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": { "message": "jwt expired", "title": "Load results fail" },
+      "meta": { "loadingId": -1 },
+      "createdAt": "2023-02-22T04:48:14.143Z",
+      "id": 23
+    },
+    {
+      "user": { "email": "my@mail.com", "name": "Sherwin", "id": 1 },
+      "type": "LOAD_QUESTIONS_FAIL",
+      "payload": { "message": "jwt expired", "title": "Load questions fail" },
+      "meta": { "loadingId": -1 },
+      "createdAt": "2023-02-22T05:48:23.624Z",
+      "id": 24
+    },
+    {
+      "user": { "email": "my@mail.com", "name": "Sherwin", "id": 1 },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": { "message": "jwt expired", "title": "Load results fail" },
+      "meta": { "loadingId": -1 },
+      "createdAt": "2023-02-22T05:48:30.828Z",
+      "id": 25
+    },
+    {
+      "user": { "email": "my@mail.com", "name": "Sherwin", "id": 1 },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": { "message": "jwt expired", "title": "Load results fail" },
+      "meta": { "loadingId": -1 },
+      "createdAt": "2023-02-22T06:48:53.520Z",
+      "id": 26
+    }
+  ]
+}
