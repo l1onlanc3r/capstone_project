@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 
 function Control({
   page,
@@ -10,7 +10,6 @@ function Control({
   dirty,
   isSubmitting,
 }) {
-  console.log('Control render');
   return (
     <div
       className="fixed inset-x-0 bottom-0 footer flex items-center lg:flex-row sm:flex-col mx-auto justify-center py-5 w-full"
@@ -26,16 +25,12 @@ function Control({
           <div
             className="absolute top-0 left-0 h-2 bg-green-500 rounded-full"
             style={{
-              width: `${
-                // (answers.reduce((p, c) => p + c, 0) / questions.length) * 100
-                (page / length) * 100
-              }%`,
+              width: `${(page / length) * 100}%`,
             }}
           />
         </div>
         <p className="text-xs mx-1 font-medium" style={{ color: '#757575' }}>
           {`${page}/${length}`}
-          {/* {`${answers.reduce((p, c) => p + c, 0)}/${questions.length}`} */}
         </p>
       </div>
 
@@ -51,6 +46,7 @@ function Control({
           </button>
         ) : (
           <button
+            id="btnContinue"
             type="button"
             disabled={!(isValid && dirty) || isSubmitting}
             className="btn rounded w-full"
@@ -66,19 +62,16 @@ function Control({
   );
 }
 
-const mapDispatchToProps = (dispatch) => ({
-  checkAnswers: (data) => {
-    console.log('SUBMITTING');
-    dispatch({
-      type: 'CHECK_ANSWERS_REQUEST',
-      payload: {
-        url: `/submit`,
-        method: 'post',
-        data,
-      },
-      meta: { loadingId: -1 },
-    });
-  },
-});
+// {/* !(isValid && dirty) || isSubmitting */}
 
-export default connect(null, mapDispatchToProps)(Control);
+Control.propTypes = {
+  page: PropTypes.number.isRequired,
+  length: PropTypes.number.isRequired,
+  step: PropTypes.number.isRequired,
+  setStep: PropTypes.func.isRequired,
+  isValid: PropTypes.bool.isRequired,
+  dirty: PropTypes.bool.isRequired,
+  isSubmitting: PropTypes.bool.isRequired,
+};
+
+export default memo(Control);

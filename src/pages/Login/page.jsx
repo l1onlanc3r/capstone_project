@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import { loginFields, loginInitialValues } from './loginFields';
 import CustomForm from '../../components/CustomForm';
-import { Link } from 'react-router-dom';
 
 function Login({ login }) {
   return (

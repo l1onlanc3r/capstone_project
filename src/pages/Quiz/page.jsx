@@ -1,11 +1,11 @@
 import React, { useEffect, useState, useCallback, useRef } from 'react';
-import { Navigate, Redirect } from 'react-router';
 import PropTypes from 'prop-types';
 
 import { Formik } from 'formik';
 import { Link } from 'react-router-dom';
-import FormStepper from '../../components/StepForm/FormStepper';
+import FormStepper from '../../components/StepForm/Stepper';
 import Question from '../../components/Question';
+import Result from '../../components/Result';
 
 function Quiz({
   user,
@@ -17,6 +17,7 @@ function Quiz({
   checkAnswers,
   results,
 }) {
+  console.log('initialValues: ', initialValues);
   const newIntVal = { ...initialValues, userId: user.user.id };
 
   const loadData = useCallback(async () => {
@@ -27,23 +28,25 @@ function Quiz({
     loadData();
   }, [loadData]);
 
-  if (results.current) {
-    console.log('results: ', results);
-    return <Navigate to="/quiz/result" state={results.current} />;
-  }
-
-  console.log(questions);
-
-  // const linksGroup = { linkname: '', linkurl: '' };
+  if (results.current) return <Result results={results} />;
 
   return (
     <div
-      style={{ border: '1px solid black', height: '100%' }}
+      style={{
+        backgroundColor: 'EDE8E3',
+        border: '1px solid black',
+        height: '100%',
+      }}
       className="h-screen flex flex-col"
     >
       <div className="px-2 sm:px-6 lg:px-40 relative flex h-16 items-center justify-between">
-        <div className="p-1" style={{ backgroundColor: 'red' }}>
-          <p className="text-xs font-semibold">200</p>
+        <div
+          className="p-1 rounded-full w-12"
+          style={{ backgroundColor: 'white' }}
+        >
+          <p className="text-sm font-bold text-center" id="currentWeight">
+            0
+          </p>
         </div>
         <div>
           <p className="text-2xl font-semibold">Fantasy Quiz</p>
@@ -68,7 +71,7 @@ function Quiz({
       {loading && <h1>Loading...</h1>}
       {hasError && <h1>Something went wrong</h1>}
       <Formik initialValues={newIntVal} onSubmit={checkAnswers}>
-        {({ values, isValid, dirty, errors, isSubmitting, handleSubmit }) => (
+        {({ isValid, dirty, errors, isSubmitting, handleSubmit }) => (
           <FormStepper
             length={questions.length}
             isValid={isValid}

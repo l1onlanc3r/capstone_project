@@ -1,6 +1,7 @@
 export const resultsInitialState = {
   history: [],
   current: null,
+  takingQuiz: false,
 };
 
 export default (state = resultsInitialState, { type, payload }) => {
@@ -13,6 +14,12 @@ export default (state = resultsInitialState, { type, payload }) => {
 
     case 'CLEAR_CURRENT':
       return { ...state, current: null };
+
+    case 'QUIZ_START':
+      return { ...state, takingQuiz: true };
+
+    case 'QUIZ_DONE':
+      return { ...state, takingQuiz: false };
 
     default:
       return state;

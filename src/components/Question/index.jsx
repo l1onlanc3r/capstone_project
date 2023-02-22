@@ -1,22 +1,21 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Field } from 'formik';
+import PropTypes from 'prop-types';
 import OptionSingle from '../Option/single';
 import OptionMultiple from '../Option/multiple';
 
-function Question({ question, setAnswer, answers }) {
-  const [selected, setSelected] = useState(null);
-
+function Question({ question }) {
   const props = {
     component: question.type === 'single' ? OptionSingle : OptionMultiple,
     name: question.id,
     id: question.id,
     questionId: question.id,
     choices: question.choices,
-    'data-value': question.type === 'single' ? '' : [],
+    value: question.type === 'single' ? '' : [],
   };
 
-  console.log('question: ', question);
-  console.log('props: ', props);
+  // update the score in top-left
+  document.getElementById('currentWeight').innerHTML = question?.weight;
 
   return (
     <div className="content flex-1 flex flex-col items-center px-2 sm:px-6 lg:px-40 relative flex h-16 items-center justify-center">
@@ -27,21 +26,20 @@ function Question({ question, setAnswer, answers }) {
         {question?.question}
       </p>
       <div className="choices grid grid-cols-1 gap-2 items-center justify-center my-10">
-        <Field key={question?.id} {...props} />
+        <Field {...props} />
       </div>
     </div>
   );
 }
 
-/*
-{question?.choices.map((x, index) => (
-          <Options
-            key={x.id}
-            choice={x}
-            selected={selected}
-            setSelected={setSelected}
-          />
-        ))}
-*/
+Question.propTypes = {
+  question: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    type: PropTypes.string.isRequired,
+    weight: PropTypes.number.isRequired,
+    choices: PropTypes.arrayOf().isRequired,
+    question: PropTypes.string.isRequired,
+  }).isRequired,
+};
 
 export default Question;

@@ -4,7 +4,7 @@ import Quiz from './page';
 
 // const navigate = useNavigate();
 
-const mapStateToProps = ({ results, user, questions, loading, errors }) => ({
+const mapStateToProps = ({ user, questions, results, loading, errors }) => ({
   user,
   questions,
   results,
@@ -28,8 +28,6 @@ const mapDispatchToProps = (dispatch) => ({
     });
   },
   checkAnswers: async (data) => {
-    console.log('SUBMITTINGssssss:', data);
-
     dispatch({
       type: 'CHECK_ANSWERS_REQUEST',
       payload: {

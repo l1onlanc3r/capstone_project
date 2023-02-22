@@ -20,6 +20,7 @@ const mapDispatchToProps = (dispatch) => ({
       meta: { loadingId: -1 },
     });
   },
+  quizStart: () => dispatch({ type: 'QUIZ_START' }),
   logout: () => dispatch({ type: 'LOGOUT' }),
 });
 

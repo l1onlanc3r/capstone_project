@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function OptionMultiple({
   field: { name, value }, // { name, value, onChange, onBlur }
@@ -7,14 +8,16 @@ function OptionMultiple({
   choices,
   ...props
 }) {
+  const nVal = value || props.value;
+
   return (
-    <fieldset>
+    <>
       {choices.map((choice, index) => (
         <label
           key={choice.id}
           htmlFor={`${questionId}_${choice.id}`}
-          className={`flex justify-start btn rounded py-4 px-8 text-left  ${
-            value.some((val) => val === choice.id)
+          className={`flex justify-start btn rounded my-3 py-4 px-8 text-left  ${
+            nVal.some((val) => val === choice.id)
               ? 'bg-green-400 '
               : 'bg-gray-100 '
           }hover:bg-green-200 focus:ring-green-300`}
@@ -24,7 +27,7 @@ function OptionMultiple({
             width: '300px',
           }}
         >
-          {value.some((val) => val === choice.id) ? (
+          {nVal.some((val) => val === choice.id) ? (
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -68,22 +71,23 @@ function OptionMultiple({
             type="checkbox"
             id={`${questionId}_${choice.id}`}
             name={name}
-            checked={value.some((val) => val === choice.id)}
+            checked={nVal.some((val) => val === choice.id)}
             className="hidden"
             onChange={() => {
               // find if in array
-              const idx = value.findIndex((val) => val === choice.id);
+              const idx = nVal.findIndex((val) => val === choice.id);
 
               if (idx === -1) {
                 // add
-                setFieldValue(name, [...value, choice.id]);
+                setFieldValue(name, [...nVal, choice.id]);
               } else {
                 // remove
                 setFieldValue(name, [
-                  ...value.slice(0, idx),
-                  ...value.slice(idx + 1),
+                  ...nVal.slice(0, idx),
+                  ...nVal.slice(idx + 1),
                 ]);
               }
+
               try {
                 document.getElementById('btnFinish').disabled = false;
               } catch (e) {}
@@ -91,8 +95,15 @@ function OptionMultiple({
           />
         </label>
       ))}
-    </fieldset>
+    </>
   );
 }
+
+OptionMultiple.propTypes = {
+  field: PropTypes.shape({}).isRequired,
+  form: PropTypes.shape({}).isRequired,
+  questionId: PropTypes.string.isRequired,
+  choices: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
+};
 
 export default OptionMultiple;

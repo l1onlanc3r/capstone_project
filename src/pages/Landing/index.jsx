@@ -3,9 +3,6 @@ import { useNavigate } from 'react-router-dom';
 
 function Home() {
   const navigate = useNavigate();
-  // const location = useLocation();
-
-  // console.log('location', location);
 
   const navigateToAuth = () => {
     navigate('/auth');

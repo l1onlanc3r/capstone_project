@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function OptionSingle({
   field: { name, value }, // { name, value, onChange, onBlur }
@@ -81,5 +82,12 @@ function OptionSingle({
     </>
   );
 }
+
+OptionSingle.propTypes = {
+  field: PropTypes.shape({}).isRequired,
+  form: PropTypes.shape({}).isRequired,
+  questionId: PropTypes.string.isRequired,
+  choices: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
+};
 
 export default OptionSingle;
