@@ -11,8 +11,6 @@ const db = new JsonDB(new Config('db', true, false, '/'));
 const quizRouter = express.Router();
 
 quizRouter.post('/submit', async (req, res) => {
-  console.log('reading data: ', req.body);
-
   const ObjectId = (
     m = Math,
     d = Date,
@@ -21,8 +19,6 @@ quizRouter.post('/submit', async (req, res) => {
   ) => s(d.now() / 1000) + ' '.repeat(h).replace(/./g, () => s(m.random() * h));
 
   // Access the parse results as request.body
-  console.log(req.body);
-  // const answers = req.body;
   // process the data
   // format data for easy access later
 
@@ -42,24 +38,17 @@ quizRouter.post('/submit', async (req, res) => {
     }
   }
 
-  console.log(answers);
-
   // fetch questions
   // If you try to get some data from a DataPath that doesn't exists
   // You'll get an Error
   try {
     const data = await db.getData('/questions');
-    console.log(data);
 
     const score = data.reduce(
       (p, c) => {
         const ans = answers.find((a) => Number(a.questionId) === c.id);
 
-        console.log('weight: ', c.weight);
-        console.log('ans: ', ans);
-
         if (c.type === 'single' && c.correctAns === ans.answer) {
-          console.log('correct');
           return {
             correct: p.correct + 1,
             points: p.points + c.weight,
@@ -70,9 +59,7 @@ quizRouter.post('/submit', async (req, res) => {
           c.type === 'multiple' &&
           c.correctAns.length === ans.answer.length
         ) {
-          // c.type === 'multiple'
           if (c.correctAns.every((x) => ans.answer.includes(x))) {
-            console.log('correct');
             return {
               correct: p.correct + 1,
               points: p.points + c.weight,
@@ -80,8 +67,6 @@ quizRouter.post('/submit', async (req, res) => {
           }
         }
 
-        console.log('wrong:');
-        console.log('correct:', c.correctAns);
         return p;
       },
       {
@@ -107,16 +92,12 @@ quizRouter.post('/submit', async (req, res) => {
     );
 
     // return results
-
-    console.log('total: ', score);
     res.send(JSON.stringify(score));
   } catch (error) {
     // The error will tell you where the DataPath stopped. In this case test1
     // Since /test1/test does't exist.
     console.error(error);
   }
-
-  // res.send(`reading data: ${JSON.stringify(req.body)}`);
 });
 
 export default quizRouter;

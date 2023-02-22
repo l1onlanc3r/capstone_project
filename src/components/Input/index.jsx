@@ -8,19 +8,6 @@ function Input({
   className,
   ...props
 }) {
-  // const { field, form, meta, className, props } = this.props;
-  /*
-  console.log('field:', field);
-  try {
-    console.log('form:', form);
-  } catch (e) {
-    console.log(e);
-  }
-  console.log('meta:', meta);
-  console.log('className:', className);
-  console.log('props:', props);
-  */
-
   return (
     <div>
       <label htmlFor={props.id} className="sr-only">
