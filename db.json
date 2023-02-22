@@ -1,0 +1,677 @@
+{
+  "users": [
+    {
+      "email": "my@mail.com",
+      "password": "$2a$10$tj.YKvQ/65iPYMsvGxHbq.2O4Eh7Ny/NRa9qwheRPGR9m1TPYYEK6",
+      "name": "Sherwin",
+      "id": 1
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is used to access a function fetch() from h1 element in JSX?",
+      "choices": [
+        {
+          "id": 1,
+          "value": "<h1>${fetch()}</h1>"
+        },
+        {
+          "id": 2,
+          "value": "<h1>{fetch}</h1>"
+        },
+        {
+          "id": 3,
+          "value": "<h1>${fetch}</h1>"
+        },
+        {
+          "id": 4,
+          "value": "<h1>{fetch()}</h1>"
+        }
+      ],
+      "correctAns": 2,
+      "type": "single",
+      "weight": 20
+    },
+    {
+      "id": 2,
+      "question": "When setState() is called inside render() method, which of the following events takes place?",
+      "choices": [
+        {
+          "id": 1,
+          "value": "duplicate key error"
+        },
+        {
+          "id": 2,
+          "value": "repetitive output happiness on the"
+        },
+        {
+          "id": 3,
+          "value": "screen nothing happens"
+        },
+        {
+          "id": 4,
+          "value": "stackoverflow error"
+        }
+      ],
+      "correctAns": 4,
+      "type": "single",
+      "weight": 20
+    },
+    {
+      "id": 3,
+      "question": "What happens if you render an input element with disabled = {false}?",
+      "choices": [
+        {
+          "id": 1,
+          "value": "it will be rendered as enabled"
+        },
+        {
+          "id": 2,
+          "value": "it will not be rendered as disabled"
+        },
+        {
+          "id": 3,
+          "value": "it will not be rendered as enabled"
+        },
+        {
+          "id": 4,
+          "value": "it will be rendered as disabled"
+        }
+      ],
+      "correctAns": [
+        1,
+        2
+      ],
+      "type": "multiple",
+      "weight": 20
+    },
+    {
+      "id": 4,
+      "question": "Which of the following lifecycle events React components have at the highest level?",
+      "choices": [
+        {
+          "id": 1,
+          "value": "Destruction"
+        },
+        {
+          "id": 2,
+          "value": "Initialization"
+        },
+        {
+          "id": 3,
+          "value": "State/Property updates"
+        },
+        {
+          "id": 4,
+          "value": "None of the above"
+        }
+      ],
+      "correctAns": [
+        1,
+        2,
+        3
+      ],
+      "type": "multiple",
+      "weight": 30
+    },
+    {
+      "id": 5,
+      "question": "How many ways of deﬁning your variables in ES6?",
+      "choices": [
+        {
+          "id": 1,
+          "value": "4"
+        },
+        {
+          "id": 2,
+          "value": "1"
+        },
+        {
+          "id": 3,
+          "value": "5"
+        },
+        {
+          "id": 4,
+          "value": "3"
+        }
+      ],
+      "correctAns": 4,
+      "type": "single",
+      "weight": 10
+    }
+  ],
+  "results": [
+    {
+      "id": "63f52b02e39d63eea1ddef64",
+      "user_id": 1,
+      "selectedAnswers": [
+        {
+          "questionId": "1",
+          "answer": 2
+        },
+        {
+          "questionId": "2",
+          "answer": 2
+        },
+        {
+          "questionId": "3",
+          "answer": [
+            4,
+            3
+          ]
+        },
+        {
+          "questionId": "4",
+          "answer": [
+            1
+          ]
+        },
+        {
+          "questionId": "5",
+          "answer": 3
+        }
+      ],
+      "correct": 1,
+      "score": 20,
+      "datetime": "2023-02-21T20:35:14.998Z"
+    },
+    {
+      "id": "63f52d78022f727e3d5ae996",
+      "user_id": 1,
+      "selectedAnswers": [
+        {
+          "questionId": "1",
+          "answer": 1
+        },
+        {
+          "questionId": "2",
+          "answer": 4
+        },
+        {
+          "questionId": "3",
+          "answer": [
+            1,
+            2
+          ]
+        },
+        {
+          "questionId": "4",
+          "answer": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "questionId": "5",
+          "answer": 4
+        }
+      ],
+      "correct": 4,
+      "score": 80,
+      "datetime": "2023-02-21T20:45:44.270Z"
+    },
+    {
+      "id": "63f530cf7a6a290d7ccbe3ba",
+      "user_id": 1,
+      "selectedAnswers": [
+        {
+          "questionId": "1",
+          "answer": 2
+        },
+        {
+          "questionId": "2",
+          "answer": 3
+        },
+        {
+          "questionId": "3",
+          "answer": [
+            3,
+            2
+          ]
+        },
+        {
+          "questionId": "4",
+          "answer": [
+            3
+          ]
+        },
+        {
+          "questionId": "5",
+          "answer": 3
+        }
+      ],
+      "correct": 1,
+      "score": 20,
+      "datetime": "2023-02-21T20:59:59.193Z"
+    },
+    {
+      "id": "63f531c891fb48f12e56119c",
+      "user_id": 1,
+      "selectedAnswers": [
+        {
+          "questionId": "1",
+          "answer": 2
+        },
+        {
+          "questionId": "2",
+          "answer": 3
+        },
+        {
+          "questionId": "3",
+          "answer": [
+            3,
+            2
+          ]
+        },
+        {
+          "questionId": "4",
+          "answer": [
+            3
+          ]
+        },
+        {
+          "questionId": "5",
+          "answer": 3
+        }
+      ],
+      "correct": 1,
+      "score": 20,
+      "datetime": "2023-02-21T21:04:08.479Z"
+    },
+    {
+      "id": "63f53e457b2d71a7219fe643",
+      "user_id": 1,
+      "selectedAnswers": [
+        {
+          "questionId": "1",
+          "answer": 2
+        },
+        {
+          "questionId": "2",
+          "answer": 4
+        },
+        {
+          "questionId": "3",
+          "answer": [
+            3
+          ]
+        },
+        {
+          "questionId": "4",
+          "answer": [
+            3
+          ]
+        },
+        {
+          "questionId": "5",
+          "answer": 3
+        }
+      ],
+      "correct": 2,
+      "score": 40,
+      "datetime": "2023-02-21T21:57:25.179Z"
+    },
+    {
+      "id": "63f53fa0ada12d2546965c8d",
+      "user_id": 1,
+      "selectedAnswers": [
+        {
+          "questionId": "1",
+          "answer": 3
+        },
+        {
+          "questionId": "2",
+          "answer": 3
+        },
+        {
+          "questionId": "3",
+          "answer": [
+            2
+          ]
+        },
+        {
+          "questionId": "4",
+          "answer": [
+            4
+          ]
+        },
+        {
+          "questionId": "5",
+          "answer": 2
+        }
+      ],
+      "correct": 0,
+      "score": 0,
+      "datetime": "2023-02-21T22:03:12.839Z"
+    },
+    {
+      "id": "63f543c445d3768e12dbcee0",
+      "user_id": 1,
+      "selectedAnswers": [
+        {
+          "questionId": "1",
+          "answer": 2
+        },
+        {
+          "questionId": "2",
+          "answer": 4
+        },
+        {
+          "questionId": "3",
+          "answer": [
+            1,
+            2
+          ]
+        },
+        {
+          "questionId": "4",
+          "answer": [
+            4
+          ]
+        },
+        {
+          "questionId": "5",
+          "answer": 3
+        }
+      ],
+      "correct": 3,
+      "score": 60,
+      "datetime": "2023-02-21T22:20:52.682Z"
+    },
+    {
+      "id": "63f5452180115cd65de0fa0c",
+      "user_id": 1,
+      "selectedAnswers": [
+        {
+          "questionId": "1",
+          "answer": 3
+        },
+        {
+          "questionId": "2",
+          "answer": 2
+        },
+        {
+          "questionId": "3",
+          "answer": [
+            4,
+            2
+          ]
+        },
+        {
+          "questionId": "4",
+          "answer": [
+            3,
+            2,
+            4
+          ]
+        },
+        {
+          "questionId": "5",
+          "answer": 3
+        }
+      ],
+      "correct": 0,
+      "score": 0,
+      "datetime": "2023-02-21T22:26:41.223Z"
+    }
+  ],
+  "errors": [
+    {
+      "user": {
+        "email": "my@mail.com",
+        "name": "Sherwin",
+        "id": 1
+      },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": {
+        "message": "jwt expired",
+        "title": "Load results fail"
+      },
+      "meta": {
+        "loadingId": -1
+      },
+      "createdAt": "2023-02-21T21:29:45.736Z",
+      "id": 1
+    },
+    {
+      "user": {
+        "email": "my@mail.com",
+        "name": "Sherwin",
+        "id": 1
+      },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": {
+        "message": "jwt expired",
+        "title": "Load results fail"
+      },
+      "meta": {
+        "loadingId": -1
+      },
+      "createdAt": "2023-02-21T21:32:43.542Z",
+      "id": 2
+    },
+    {
+      "user": {
+        "email": "my@mail.com",
+        "name": "Sherwin",
+        "id": 1
+      },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": {
+        "message": "jwt expired",
+        "title": "Load results fail"
+      },
+      "meta": {
+        "loadingId": -1
+      },
+      "createdAt": "2023-02-21T21:44:57.247Z",
+      "id": 3
+    },
+    {
+      "user": {
+        "email": "my@mail.com",
+        "name": "Sherwin",
+        "id": 1
+      },
+      "type": "LOAD_QUESTIONS_FAIL",
+      "payload": {
+        "message": "jwt expired",
+        "title": "Load questions fail"
+      },
+      "meta": {
+        "loadingId": -1
+      },
+      "createdAt": "2023-02-21T21:45:02.926Z",
+      "id": 4
+    },
+    {
+      "user": {
+        "email": "my@mail.com",
+        "name": "Sherwin",
+        "id": 1
+      },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": {
+        "message": "jwt expired",
+        "title": "Load results fail"
+      },
+      "meta": {
+        "loadingId": -1
+      },
+      "createdAt": "2023-02-21T21:45:04.518Z",
+      "id": 5
+    },
+    {
+      "user": {
+        "email": "my@mail.com",
+        "name": "Sherwin",
+        "id": 1
+      },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": {
+        "message": "jwt expired",
+        "title": "Load results fail"
+      },
+      "meta": {
+        "loadingId": -1
+      },
+      "createdAt": "2023-02-21T23:25:17.662Z",
+      "id": 6
+    },
+    {
+      "user": {
+        "email": "my@mail.com",
+        "name": "Sherwin",
+        "id": 1
+      },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": {
+        "message": "jwt expired",
+        "title": "Load results fail"
+      },
+      "meta": {
+        "loadingId": -1
+      },
+      "createdAt": "2023-02-22T00:12:56.157Z",
+      "id": 7
+    },
+    {
+      "user": {
+        "email": "my@mail.com",
+        "name": "Sherwin",
+        "id": 1
+      },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": {
+        "message": "jwt expired",
+        "title": "Load results fail"
+      },
+      "meta": {
+        "loadingId": -1
+      },
+      "createdAt": "2023-02-22T00:13:47.539Z",
+      "id": 8
+    },
+    {
+      "user": {
+        "email": "my@mail.com",
+        "name": "Sherwin",
+        "id": 1
+      },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": {
+        "message": "jwt expired",
+        "title": "Load results fail"
+      },
+      "meta": {
+        "loadingId": -1
+      },
+      "createdAt": "2023-02-22T00:14:08.526Z",
+      "id": 9
+    },
+    {
+      "user": {
+        "email": "my@mail.com",
+        "name": "Sherwin",
+        "id": 1
+      },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": {
+        "message": "jwt expired",
+        "title": "Load results fail"
+      },
+      "meta": {
+        "loadingId": -1
+      },
+      "createdAt": "2023-02-22T00:14:20.857Z",
+      "id": 10
+    },
+    {
+      "user": {
+        "email": "my@mail.com",
+        "name": "Sherwin",
+        "id": 1
+      },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": {
+        "message": "jwt expired",
+        "title": "Load results fail"
+      },
+      "meta": {
+        "loadingId": -1
+      },
+      "createdAt": "2023-02-22T00:15:40.677Z",
+      "id": 11
+    },
+    {
+      "user": {
+        "email": "my@mail.com",
+        "name": "Sherwin",
+        "id": 1
+      },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": {
+        "message": "jwt expired",
+        "title": "Load results fail"
+      },
+      "meta": {
+        "loadingId": -1
+      },
+      "createdAt": "2023-02-22T00:18:52.215Z",
+      "id": 12
+    },
+    {
+      "user": {
+        "email": "my@mail.com",
+        "name": "Sherwin",
+        "id": 1
+      },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": {
+        "message": "jwt expired",
+        "title": "Load results fail"
+      },
+      "meta": {
+        "loadingId": -1
+      },
+      "createdAt": "2023-02-22T00:19:02.257Z",
+      "id": 13
+    },
+    {
+      "user": {
+        "email": "my@mail.com",
+        "name": "Sherwin",
+        "id": 1
+      },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": {
+        "message": "jwt expired",
+        "title": "Load results fail"
+      },
+      "meta": {
+        "loadingId": -1
+      },
+      "createdAt": "2023-02-22T00:19:15.764Z",
+      "id": 14
+    },
+    {
+      "user": {
+        "email": "my@mail.com",
+        "name": "Sherwin",
+        "id": 1
+      },
+      "type": "LOAD_RESULTS_FAIL",
+      "payload": {
+        "message": "jwt expired",
+        "title": "Load results fail"
+      },
+      "meta": {
+        "loadingId": -1
+      },
+      "createdAt": "2023-02-22T00:30:13.601Z",
+      "id": 15
+    }
+  ]
+}
